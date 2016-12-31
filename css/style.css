@@ -92,7 +92,7 @@ body {
   min-height: 200px;
   align-self: stretch;
   display: inline-block;
-  background: url("https://i.imgsafe.org/33c019c097.jpg") no-repeat no-repeat top center;
+  background: url("../img/profile.jpg") no-repeat no-repeat top center;
   background-size: cover;
   border-style: none;
   float: left;
