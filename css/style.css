@@ -60,7 +60,7 @@ body {
   overflow: hidden;
   transition: max-height 0.3s;
 } .dropdown-open {
-  max-height: 500px;
+  max-height: 800px;
 } .dropdown-content p:first-child {
   margin-top: 5px;
 } .media-btn {
