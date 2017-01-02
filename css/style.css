@@ -2,6 +2,8 @@ body {
 	overflow-y: scroll;
 	background-color: #eee;
 	font-family: Helvetica;
+	margin: 0;
+	padding: 0;
 } h1 {
 	margin: 15px 15px 0;
 	font-family: 'Roboto';
@@ -94,13 +96,13 @@ body {
 } #top-bar.hidden {
 	top: -50px;
 } #content {
-	margin: 0 auto;
-	padding: 2.3em 5px 5px;
+	margin: 2.3em auto 0;
+	padding: 10px 5px;
 	align-items: stretch;
 	max-width: 1000px;
 } #content > p {
 	color: #787c7d;
-	padding: 15px 0 20px;
+	margin: 10px;
 	width: 100%;
 	text-align: center;
 } #profile-img {
