@@ -23,6 +23,6 @@ function didScroll() {
 }
 
 $(".dropdown-header").click(function(event) {
-  $(this).closest(".dropdown").toggleClass("dropdown-open");
+	$(this).closest(".dropdown").find(".dropdown-content").slideToggle();
   $(this).find(".dropdown-selector").toggleClass("selected");
 });
