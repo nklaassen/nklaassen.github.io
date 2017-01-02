@@ -93,8 +93,6 @@ body {
 	margin: 0 auto;
 } #top-bar .fa-linkedin-square {
 	margin-left: auto;
-} #top-bar.hidden {
-	top: -50px;
 } #content {
 	margin: 2.3em auto 0;
 	padding: 10px 5px;
