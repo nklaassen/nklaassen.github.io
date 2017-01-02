@@ -93,6 +93,7 @@ body {
 	color: white;
 	background-color: #212121;
 	box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0px rgba(0,0,0,.14), 0 1px 18px 0px rgba(0,0,0,.12);
+	transition: all 150ms;
 } #top-bar > div {
 	display: flex;
 	flex-flow: row nowrap;
@@ -101,6 +102,8 @@ body {
 	margin: 0 auto;
 } #top-bar .fa-linkedin-square {
 	margin-left: auto;
+} #top-bar.hidden {
+	top: -50px;
 } #content {
 	margin: 0 auto;
 	padding: 55px 5px 5px;
