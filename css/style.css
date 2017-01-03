@@ -70,8 +70,8 @@ body {
 } .dropdown-content *:first-child {
 	margin-top: 0;
 } .media-btn {
-	font-size: 2em;
-	margin: 0.15em;
+	font-size: 30px;
+	margin: 5px;
 	color: white;
 }
 
@@ -88,7 +88,7 @@ body {
 } #top-bar > div {
 	display: flex;
 	flex-flow: row nowrap;
-	align-items: baseline;
+	align-items: top;
 	max-width: 1000px;
 	margin: 0 auto;
 } #top-bar .fa-linkedin-square {
