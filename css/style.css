@@ -103,13 +103,15 @@ body {
 	margin: 10px;
 	width: 100%;
 	text-align: center;
+} #profile {
+	flex-basis: 100%;
 } #profile-img {
 	min-height: 200px;
 	align-self: stretch;
 	display: inline-block;
 	background: url("../img/profile.jpg") no-repeat no-repeat top center;
 	background-size: cover;
-  border-style: none;
+	border-style: none;
 	float: left;
 	flex: 1 1 250px;
 } #profile-info {
