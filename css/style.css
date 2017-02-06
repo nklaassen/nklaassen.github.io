@@ -1,11 +1,10 @@
 body {
 	overflow-y: scroll;
-	background-color: #eee;
 	font-family: Helvetica;
 	margin: 0;
 	padding: 0;
 } h1 {
-	margin: 15px 15px 0;
+	margin: 5px;
 	font-family: 'Roboto';
 	font-weight: 100;
 	-webkit-font-smoothing: antialiased;
@@ -44,9 +43,12 @@ body {
 	align-items: flex-start;
 	box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 3px 4px 0px rgba(0,0,0,.14), 0 1px 5px 0px rgba(0,0,0,.12);
 	transition: 280ms;
+	max-width: 1000px;
 } .card > *:last-child {
 	padding-bottom: 10px;
-} #content > .card:hover, .dropdown-content + .dropdown	{
+} .card h1 {
+	margin: 15px 15px 0;
+} .content > .card:hover, .dropdown-content + .dropdown	{
 	box-shadow: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12);
 } .multicard .card {
 	margin: 0;
@@ -73,6 +75,24 @@ body {
 	font-size: 30px;
 	margin: 5px;
 	color: white;
+} .section {
+	margin 0 auto;
+	padding: 0;
+	width: 100%;
+} .section-title {
+	flex-basis: 100%;
+	margin: -20px 0 10px;
+} .content {
+	flex-basis: 100%;
+	margin: 0 auto;
+	padding: 40px 0 60px;
+	align-items: stretch;
+	max-width: 1000px;
+} .content > p {
+	color: #787c7d;
+	margin: 10px;
+	width: 100%;
+	text-align: center;
 }
 
 #top-bar {
@@ -93,16 +113,10 @@ body {
 	margin: 0 auto;
 } #top-bar .fa-linkedin-square {
 	margin-left: auto;
-} #content {
-	margin: 2.3em auto 0;
-	padding: 10px 5px;
-	align-items: stretch;
-	max-width: 1000px;
-} #content > p {
-	color: #787c7d;
-	margin: 10px;
-	width: 100%;
-	text-align: center;
+} #profile-section {
+	margin-top: 2.3em;
+	background-color: #eee;
+	color: #212121;
 } #profile {
 	flex-basis: 100%;
 } #profile-img {
@@ -116,6 +130,23 @@ body {
 	flex: 1 1 250px;
 } #profile-info {
 	flex: 100 1 250px;
+} #skills-section {
+	background-color: #fff;
+	color: #212121;
+} #skills-section .card {
+	background-color: #212121;
+	color: #fff;
+} #experience-section {
+	background-color: #212121;
+	color: #fff;
+} #experience-section .card {
+	background-color: #3c3c3c;
+	color: #fff;
+} #experience-section h4 {
+	color: #ccc;
 } #Work {
 	flex-basis: 100%;
+} #projects-section {
+	background-color: #eee;
+	color: #212121;
 }
