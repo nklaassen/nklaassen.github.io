@@ -25,9 +25,10 @@ body {
 	font-family: 'Open Sans';
 } li {
 	font-family: 'Open Sans';
+	margin: 0 15px 0;
 } ul, ol {
-	padding-left: 30px;
-	margin: 5px 0;
+	padding-left: 15px;
+	margin: 0;
 } a {
 	text-decoration: none;
 	aria-hidden: true;
