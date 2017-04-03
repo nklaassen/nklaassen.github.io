@@ -5,7 +5,7 @@
 	<title>Nic Klaassen - Resume</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet prefetch">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet prefetch"> 
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans%7CRoboto" rel="stylesheet prefetch"> 
 	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
 	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/1.7.22/css/materialdesignicons.min.css'>
 	<link rel="stylesheet" href="css/style.css">
@@ -33,6 +33,26 @@
 		</div>
 	</div>
 	
+	<div class="card">
+		<h1>Hardware</h1>
+		<ul>
+			<li>Skilled in synthesizable VHDL design</li>
+			<li>Proficient with FPGA hardware acceleration</li>
+			<li>Confident with the Arduino and Raspberry Pi development platforms</li>
+			<li>Competent with lab instruments such as oscilloscopes and function generators</li>
+		</ul>
+	</div>
+	
+	<div class="card">
+		<h1>Software</h1>
+		<ul>
+			<li>Extensive experience with C, C++, and Matlab</li>
+			<li>Some experience with Python, C#, Java, Javascript, and Arm Assembly</li>
+			<li>Knowledgeable with object-oriented, multi-threaded, and/or event-driven paradigms</li>
+			<li>Experience programming for embedded systems</li>
+		</ul>
+	</div>
+	
 	<div class="card multicard" id="Work">
 		<h1>Work Experience</h1>
 		<div class="dropdown card">
@@ -42,14 +62,12 @@
 				<h4>Precision NanoSystems, Inc.<br/>Jan-Aug 2016</h4>
 			</div>
 			<div class="dropdown-content">
-				<p>My 8-month co-op at PNI was centered around an ongoing project designing and implementing a system for device recognition and tracking using read-write RFID transponders. As the lead on this project, I personally:</p>
 				<ul>
-					<li>Sourced a compact ISO-15693 compliant RFID read-write module and gamma-tolerant transponders with programmable FRAM user memory</li>
-					<li>Created a specification for RFID transponder memory layout, to store critical device information and usage logs with provisions for data reduncancy</li>
-					<li>Developed a software library to interface the RFID module with a microcrontroller via RS-232 serial connection</li>
-					<li>Built a touch-screen device for programming custom information onto the RFID transponders quickly and efficiently</li>
+					<li>Designed and implemented a system for device recognition and tracking using read-write RFID transponders</li>
+					<li>Fabricated and tested microfluidic devices</li>
+					<li>Edited device manuals</li>
+					<li>Assisted with instrument builds</li>
 				</ul>
-				<p>Other responsibilities included regular microfluidic device fabrication and testing, editing of device manuals, and assisting with instrument builds.</p>
 			</div>
 		</div>
 		<div class="dropdown card">
@@ -70,7 +88,51 @@
 	
 	<div class="card multicard">
 		<h1>Projects</h1>
-
+		<div class="dropdown card">
+			<div class="dropdown-header">
+				<h2 class="dropdown-selector">keyboard_arrow_down</h2>
+				<h2>FPGA Hardware Acceleration</h2>
+				<h4>ENSC 350, Digital Systems Design<br/>April 2017</h4>
+			</div>
+			<div class="dropdown-content">
+				<ul>
+					<li>Designed a bit-ops unit as part of a soft processor on an Altera FPGA</li>
+					<li>Acheived 2x-500x speedup over traditional software implementations of various bit operations</li>
+					<li>Implemented a master bus interface for Altera’s Avalon bus specification</li>
+				</ul>
+			</div>
+		</div>
+		<div class="dropdown card">
+			<div class="dropdown-header">
+				<h2 class="dropdown-selector">keyboard_arrow_down</h2>
+				<h2>Linux System Call</h2>
+				<h4>CMPT 300, Operating Systems<br/>April 2017</h4>
+			</div>
+			<div class="dropdown-content">
+				<ul>
+					<li>Added a custom system call to the linux kernel to get information about the process associated with a given PID, and other related processes</li>
+					<li>Interfaced with kernel data structures such as the task_struct</li>
+					<li>Compiled the new kernel and tested it on a QEMU system emulator</li>
+				</ul>
+			</div>
+		</div>
+		<div class="dropdown card">
+			<div class="dropdown-header">
+				<h2 class="dropdown-selector">keyboard_arrow_down</h2>
+				<h2>Linux Shell</h2>
+				<h4>CMPT 300, Operating Systems<br/>February 2017</h4>
+			</div>
+			<div class="dropdown-content">
+				<ul>
+					<li>Developed a basic Linux shell in C</li>
+					<li>Used various system calls to spawn, terminate, and clean up child processes</li>
+					<li>Attached signal handlers to manage process lifetime</li>
+					<li>Built support for pipes and background processes</li>
+					<li>Implemented internal commmands such as 'cd', 'pwd', 'jobs', and 'exit'</li>
+					<li>Compiled and built the project using gcc and make</li>
+				</ul>
+			</div>
+		</div>
 		<div class="dropdown card">
 			<div class="dropdown-header">
 				<h2 class="dropdown-selector">keyboard_arrow_down</h2>
@@ -87,71 +149,10 @@
 				</ul>
 			</div>
 		</div>
-
-		<div class="dropdown card">
-			<div class="dropdown-header">
-				<h2 class="dropdown-selector">keyboard_arrow_down</h2>
-				<h2>Basic Linux Shell</h2>
-				<h4>CMPT 300, Operating Systems<br/>February 2017</h4>
-			</div>
-			<div class="dropdown-content">
-				<ul>
-					<li>Developed a basic Linux shell in C</li>
-					<li>Used variants of the 'fork' and 'exec' system calls to spawn child processes</li>
-					<li>Attached signal handlers and used the 'waitpid' system call to clean up terminated child processes</li>
-					<li>Build support for pipes and background processes</li>
-					<li>Implemented internal commmands such as 'cd', 'pwd', 'jobs', and 'exit'</li>
-					<li>Compiled and built the project using gcc and make</li>
-				</ul>
-			</div>
-		</div>
-
-		<div class="dropdown card">
-			<div class="dropdown-header">
-				<h2 class="dropdown-selector">keyboard_arrow_down</h2>
-				<h2>FPGA Roulette Game</h2>
-				<h4>ENSC 350, Digital Systems Design<br/>February 2017</h4>
-			</div>
-			<div class="dropdown-content">
-				<ul>
-					<li>Designed a 7-segment display roulette game in VHDL</li>
-					<li>Wrote testbenches for simulated testing of each design component</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	
-	<div class="card">
-		<h1>Hardware</h1>
-		<p>As part of my engineering program and accompanying co-op terms, I have worked with a number of digital and analog hardware technologies, and have</p>
-		<ul>
-			<li>Studied RISC processor architectures and ideologies</li>
-			<li>Implemented synthesizable digital hardware designs in VHDL</li>
-			<li>Programmed Xilinx and Altera FPGAs with custom VHDL designs</li>
-			<li>Used various serial communication protocols including RS-232, RS-485, and SPI</li>
-			<li>Designed, ordered, and populated custom PCBs</li>
-			<li>Worked with the Arduino and Raspberry Pi boards in various projects</li>
-			<li>Familiarized myself with basic lab instruments such as oscilloscopes, DMMs, and function generators</li>
-		</ul>
-	</div>
-	
-	<div class="card">
-		<h1>Software</h1>
-		<p>Software design has become a major interest of mine, and I always enjoy tackling new challenges. Some of my experience includes:</p>
-		<ul>
-			<li>Extensive experience programming in C and C++</li>
-			<li>Some experience with Python, Java, C#, Javascript, and Arm Assembly</li>
-			<li>Embedded systems programming</li>
-			<li>Object-oriented design</li>
-			<li>Multi-threaded programming</li>
-			<li>System-level programming for Linux</li>
-			<li>GUI applications using Qt for Embedded Linux</li>
-			<li>Front-end web design with HTML, CSS, and Javascript (like this website)</li>
-			<li>Basic android development</li>
-		</ul>
 	</div>
 
 	<p>Like this page? View the source <a href="https://github.com/nklaassen/nklaassen.github.io">here</a></p>
+
 </div>
 
 </body>
