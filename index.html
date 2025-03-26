@@ -1,206 +1,44 @@
 <!DOCTYPE html>
-<html >
+<html>
 <head>
 	<meta charset="UTF-8">
-	<title>Nic Klaassen - Resume</title>
+	<title>Nic Klaassen</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet prefetch">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans%7CRoboto" rel="stylesheet prefetch"> 
-	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
-	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/1.7.22/css/materialdesignicons.min.css'>
-	<link rel="stylesheet" href="css/style.css">
-	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
-	<script src="js/index.js"></script>
+	<link rel="icon" href="img/logo.svg" type="image/svg+xml">
 </head>
-
 <body>
-<div id="top-bar">
-	<div>
-		<object class="media-btn" type="image/svg+xml" data="img/logo.svg">logo-NK</object>
-		<a target="_blank" href="https://ca.linkedin.com/in/nic-klaassen-09931910b" class="media-btn fa fa-linkedin-square"></a>
-		<a target = "_blank" href="https://stackoverflow.com/users/5859521/nic" class="media-btn fa fa-stack-overflow"></a>
-		<a target="_blank" href="https://github.com/nklaassen" class="media-btn fa fa-github"></a>
-	</div>
-</div>
+<div style="max-width: 800px; margin: auto;">
 
-<div id="content" class="flex-container">
-	<div class="card flex-container" id="profile">
-		<div id="profile-img"></div>
-		<div id="profile-info">
-			<h1>Nic Klaassen</h1>
-			<p>
-				Software developer focused on building well-architected solutions to
-				real problems with correct, clean, and tested code. My professional
-				background is mostly in embedded C++ and Python applications deployed on
-				Linux. Recently I've been building personal web projects with Go,
-				React, and ThreeJS. Graduated in 2019 with a B.A.Sc in Computer
-				Engineering from SFU.</p>
-			<p>
-				 To get in contact with me, email <a href="mailto:nic@nicklaassen.ca"
-																						 target="_top">nic@nicklaassen.ca</a>
-				 or check out any of my profiles linked at the top of the page.
-			</p>
-		</div>
-	</div>
-	
-	<div class="card">
-		<h1>Software</h1>
-		<ul>
-			<li>Extensive experience with C, C++, Python, and Bash</li>
-			<li>Meaningful experience with Go, Javascript (React), Java, Matlab, R, and Arm Assembly</li>
-			<li>Knowledgeable with state-based, object-oriented and event-driven paradigms in multi-threaded environments</li>
-			<li>Experience developing highly available embedded Linux systems</li>
-		</ul>
-	</div>
-	
-	<div class="card">
-		<h1>Hardware</h1>
-		<ul>
-			<li>Experience designing and integrating PCBs</li>
-			<li>Skilled in synthesizable VHDL design</li>
-			<li>Proficient with FPGA hardware acceleration</li>
-			<li>Confident with the Arduino, Raspberry Pi, and ESP32 development platforms</li>
-			<li>Familiar with most hardware lab instruments (oscilloscopes, function generators, etc)</li>
-		</ul>
-	</div>
-	
-	<div class="card multicard" id="Work">
-		<h1>Work Experience</h1>
-		<div class="dropdown card">
-			<div class="dropdown-header">
-				<h2 class="dropdown-selector">keyboard_arrow_down</h2>
-				<h2>Software Engineer</h2>
-				<h4>Arista Networks<br/>Sept 2019 - Present</h4>
-			</div>
-			<div class="dropdown-content">
-				<ul>
-					<li>Developed process orchestration software in C++ and TACC for
-						Arista's Linux-based switches</li>
-					<li>Created Python plugins implementing new commands for the CLI and
-						JSON-based eAPI</li>
-					<li>Wrote comprehensive unit and integration tests to verify new
-						features and solidify bug fixes</li>
-				</ul>
-			</div>
-		</div>
-		<div class="dropdown card">
-			<div class="dropdown-header">
-				<h2 class="dropdown-selector">keyboard_arrow_down</h2>
-				<h2>Embedded Software Developer, Co-op</h2>
-				<h4>Avigilon<br/>Sept 2017 - Apr 2018</h4>
-			</div>
-			<div class="dropdown-content">
-				<ul>
-					<li>Worked with the Embedded Solutions team to develop software and tooling for secure, highly reliable embedded video storage and analytics devices</li>
-					<li>Developed a custom embedded Linux platform using OpenEmbedded/Yocto</li>
-					<li>Built features, refactored classes, and fixed bugs in a modern, enterprise-scale C++ codebase</li>
-					<li>Hacked on a modern web UI built with React, Redux, and Go</li>
-					<li>Actively participated in code reviews, scrum meetings, and sprint planning sessions</li>
-					<li>Used Git, BitBucket, Mercurial and Fisheye/Crucible for source control and reviews</li>
-				</ul>
-			</div>
-		</div>
-		<div class="dropdown card">
-			<div class="dropdown-header">
-				<h2 class="dropdown-selector">keyboard_arrow_down</h2>
-				<h2>Co-op Instrumentation Engineer</h2>
-				<h4>Precision NanoSystems, Inc.<br/>Jan-Aug 2016</h4>
-			</div>
-			<div class="dropdown-content">
-				<ul>
-					<li>Designed and implemented an RFID system for use in a medical research environment</li>
-					<li>Sourced an ISO-15693 compliant RFID module and gamma-tolerant RFID transponders</li>
-					<li>Created a specification for the transponder memory layout to store critical device information</li>
-					<li>Developed a software library to interface the device microcontroller with the RFID module</li>
-					<li>Co-invented WO/2018/006166 – “Smart Microfuidic Mixing Instrument and Cartridges”</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	
-	<div class="card multicard">
-		<h1>Projects</h1>
-		<div class="dropdown card">
-			<div class="dropdown-header">
-				<h2 class="dropdown-selector">keyboard_arrow_down</h2>
-				<h2>Mousetrap</h2>
-				<h4>Personal Project<br/>Jan 2018</h4>
-			</div>
-			<div class="dropdown-content">
-				<ul>
-					<li>Built a web-based application that allows a user to control the host computer’s mouse and keyboard from a mobile web browser</li>
-					<li>Developed a simple webserver in Go to create a restful HTTP API for manipulating the host</li>
-					<li>Created an easy to use, cross-platform web interface with HTML, CSS, and Javascript</li>
-					<li>Online <a href="https://github.com/nklaassen/mousetrap">here</a></li>
-				</ul>
-			</div>
-		</div>
-		<div class="dropdown card">
-			<div class="dropdown-header">
-				<h2 class="dropdown-selector">keyboard_arrow_down</h2>
-				<h2>FPGA Hardware Accelerator</h2>
-				<h4>Digital Systems Design, SFU<br/>April 2017</h4>
-			</div>
-			<div class="dropdown-content">
-				<ul>
-					<li>Designed a bit-ops unit as part of a soft processor on an Altera FPGA</li>
-					<li>Acheived 2x-35x speedup over traditional software implementations of various bit operations</li>
-					<li>Implemented a master bus interface for Altera’s Avalon bus specification</li>
-				</ul>
-			</div>
-		</div>
-		<div class="dropdown card">
-			<div class="dropdown-header">
-				<h2 class="dropdown-selector">keyboard_arrow_down</h2>
-				<h2>Linux System Call</h2>
-				<h4>Operating Systems I, SFU<br/>April 2017</h4>
-			</div>
-			<div class="dropdown-content">
-				<ul>
-					<li>Added a custom system call to the linux kernel to get information about the process associated with a given PID, and other related processes</li>
-					<li>Interfaced with kernel data structures such as the task_struct</li>
-					<li>Compiled the new kernel and tested it on a QEMU system emulator</li>
-				</ul>
-			</div>
-		</div>
-		<div class="dropdown card">
-			<div class="dropdown-header">
-				<h2 class="dropdown-selector">keyboard_arrow_down</h2>
-				<h2>Linux Shell</h2>
-				<h4>Operating Systems I, SFU<br/>February 2017</h4>
-			</div>
-			<div class="dropdown-content">
-				<ul>
-					<li>Developed a basic Linux shell in C</li>
-					<li>Used various system calls to spawn, terminate, and clean up child processes</li>
-					<li>Attached signal handlers to manage process lifetime</li>
-					<li>Built support for pipes and background processes</li>
-					<li>Implemented internal commmands such as 'cd', 'pwd', 'jobs', and 'exit'</li>
-					<li>Compiled and built the project using gcc and make</li>
-				</ul>
-			</div>
-		</div>
-		<div class="dropdown card">
-			<div class="dropdown-header">
-				<h2 class="dropdown-selector">keyboard_arrow_down</h2>
-				<h2>Touchscreen RFID Programmer</h2>
-				<h4>Precision NanoSystems, Inc.<br/>May - Aug 2016</h4>
-			</div>
-			<div class="dropdown-content">
-				<ul>
-					<li>Implemented a device for reading and writing arbitrary data to RFID transponders using a Raspberry Pi, a touchscreen, and an RFID module</li>
-					<li>Designed a functional touch GUI with Qt for Embedded Linux</li>
-					<li>Used a multi-threaded, object-oriented paradigm to control the RFID module without interrupting the GUI functionality</li>
-					<li>Introduced data redundancy to ensure accurate data transmission</li>
-					<li>Created a method for easily specifying and loading new data onto the device via USB-drive, for quickly programming batches of transponders with unique, arbitrary data</li>
-				</ul>
-			</div>
-		</div>
-	</div>
+<h1>Nic Klaassen</h1>
 
-	<p>Like this page? View the source <a href="https://github.com/nklaassen/nklaassen.github.io">here</a></p>
+<p>
+I'm a senior engineer on the platform security team at Teleport.
+Most of my work is open-source and can be found on my GitHub profile.
+My professional interests include computer networking and cryptography.
+</p>
 
-</div>
+<h2>Profiles</h2>
+<ul>
+	<li><a href="https://github.com/nklaassen">GitHub</a></li>
+	<li><a href="https://www.linkedin.com/in/nic-klaassen-09931910b/">LinkedIn</a></li>
+	<li><a href="https://x.com/nicklaassen/">X</a></li>
+</ul>
 
-</body>
-</html>
+<h2>Experience</h2>
+<ul>
+	<li>Software Engineer | <a href="https://goteleport.com/">Teleport</a> | 2021-Present</li>
+	<li>Software Engineer | Arista Networks | 2019-2021</li>
+	<li>Embedded Software Developer, Co-op | Avigilon | 2017-2018</li>
+	<li>Instrumentation Engineer, Co-op | Precision NanoSystems, Inc. | 2015-2017</li>
+	<li>BASc, Computer Engineering | Simon Fraser University | 2019</li>
+</ul>
+
+<h2>Blog Posts</h2>
+<ul>
+	<li><a href="https://goteleport.com/blog/ditching-rsa-made-teleport-more-efficient/">How Ditching RSA Made Teleport 77% More CPU-Efficient</a></li>
+</ul>
+
+<h2>Patents</h2>
+<ul>
+	<li><a href="https://patents.google.com/patent/US20200023358A1/">Smart Microfluidic Mixing Instrument and Cartridges (Co-inventor)</a></li>
+</ul>
